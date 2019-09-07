@@ -18,7 +18,9 @@ function CancelFeature() {
           <button>JOIN FREE FOR A MONTH</button>
         </div>
 
-        <img src={CancelImage} alt="cancel subscription anytime" />
+        <div className="imgex">
+          <img src={CancelImage} alt="cancel subscription anytime" />
+        </div>
       </div>
     </section>
   );

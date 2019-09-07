@@ -6,7 +6,8 @@ section {
 
 .divstyle {
   display: flex;
-  margin: 0 0 0 150px;
+  margin: 0 0 0 250px;
+
   //width: 904px;
   height: 500px;
   @media (max-width: 900px) {
@@ -89,8 +90,15 @@ section {
 // }
 
 img {
-  height: 370px;
+  height: 470px;
   width: 530px;
   margin: 0 0 0;
-  max-width: 100%;
+  max-width: 200%;
+}
+
+.imgex {
+  //position: absolute;
+  margin: 2.5em 5em 0;
+  height: 100%;
+  width: 40%;
 }

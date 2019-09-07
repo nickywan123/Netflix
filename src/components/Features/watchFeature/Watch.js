@@ -12,12 +12,10 @@ function watchContent() {
       <div className="columns">
         <div className="column">
           <h2 className="description">
-            Watch TV shows and movies anytime, anywhere — personalized for
-            <br />
-            you.
+            Watch TV shows and movies anytime, anywhere — personalized for you.
           </h2>
 
-          <button>JOIN FREE FOR A MONTH</button>
+          <button id="joinbutton5">JOIN FREE FOR A MONTH</button>
         </div>
       </div>
       <div className="columns">
