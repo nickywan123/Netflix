@@ -1,0 +1,111 @@
+.priceContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapperPrice {
+  width: 90%;
+
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    text-align: center;
+  }
+}
+
+.priceDes {
+  width: 65%;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  padding-right: 290px;
+  text-align: center;
+  display: inline-flex;
+  margin-right: -250px;
+  margin-top: 50px;
+}
+
+#joinButton4 {
+  font-size: 14px;
+  letter-spacing: 1.9px;
+  font-weight: 100;
+  margin: -0.5em 0.5em 0.5em 3.7em;
+  padding: 18px 20px;
+  color: white;
+  background-color: #e50914;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  border: 0;
+  &:hover {
+    background-color: #e53935;
+  }
+}
+
+table {
+  width: 70%;
+  color: white;
+  font-weight: 500;
+  fill: white;
+  //   margin-top: 60px;
+  //   margin-left: 100px;
+  margin: 50px 250px 0px;
+  border-collapse: collapse;
+  thead {
+    border-collapse: collapse;
+    text-transform: uppercase;
+    th {
+      padding: 10px;
+    }
+  }
+  tbody {
+    border-collapse: collapse;
+    color: #999;
+    td {
+      text-align: center;
+      padding: 11px 20px;
+      &:first-child {
+        text-align: left;
+      }
+    }
+    tr {
+      &:nth-child(2n) {
+        background-color: #222;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    thead {
+      th {
+        text-align: center;
+        width: 35%;
+      }
+    }
+    tbody {
+      td {
+        text-align: center;
+        padding: 1em 0;
+        &:first-child {
+          text-align: center;
+        }
+      }
+      tr {
+        &:nth-child(2n) {
+          background-color: transparent;
+        }
+      }
+    }
+    .bold {
+      padding: 5px 10px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}

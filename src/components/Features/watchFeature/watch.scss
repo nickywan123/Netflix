@@ -1,0 +1,85 @@
+.sectionWatch {
+  width: 100%;
+  height: 200%;
+  margin: 0 auto;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.columns {
+  display: flex;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-bottom: 60px;
+  //margin-left: 150px;
+  text-align: center;
+
+  @media (max-width: 1200px) {
+    text-align: center;
+  }
+}
+
+.description {
+  font-size: 22px;
+  color: white;
+  padding-right: 1em;
+  font-weight: 500;
+  margin: 2em 200px 20px;
+  text-align: left;
+}
+
+button {
+  font-size: 14px;
+  letter-spacing: 1.9px;
+  font-weight: 100;
+  margin: -150px 0.5em 0px 50em;
+  padding: 16px 1.5em;
+  color: white;
+  background-color: #e50914;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  border: 0;
+  &:hover {
+    background-color: #e53935;
+  }
+
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex: none;
+}
+
+img {
+  max-width: 75%;
+  width: 303px;
+  height: 194px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.pWatchDes {
+  color: #999;
+  text-align: center;
+  font-size: 16px;
+  direction: ltr;
+  font-weight: 500;
+}
